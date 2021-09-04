@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="svZk9n" name="SDAassignment" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="1" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="assfEt" name="SDAassignment">
+    <GROUP id="{1E2FEB4F-E26D-F8C2-A5DA-B903A11C1F72}" name="Source">
+      <GROUP id="{0294E178-9581-9D67-175D-5EFFF14D4E41}" name="Audio">
+        <GROUP id="{BB6D366E-43F9-6478-66A0-9858B10A6923}" name="PedalsAudio">
+          <FILE id="JQ65hK" name="ChorusAudio.cpp" compile="1" resource="0" file="Source/Audio/PedalsAudio/ChorusAudio.cpp"/>
+          <FILE id="fBx4TU" name="ChorusAudio.h" compile="0" resource="0" file="Source/Audio/PedalsAudio/ChorusAudio.h"/>
+          <FILE id="nyzYd2" name="DelayAudio.cpp" compile="1" resource="0" file="Source/Audio/PedalsAudio/DelayAudio.cpp"/>
+          <FILE id="YhbJ0N" name="DelayAudio.h" compile="0" resource="0" file="Source/Audio/PedalsAudio/DelayAudio.h"/>
+          <FILE id="zMmNu6" name="DistortionAudioBase.cpp" compile="1" resource="0"
+                file="Source/Audio/PedalsAudio/DistortionAudioBase.cpp"/>
+          <FILE id="dt6x37" name="DistortionAudioBase.h" compile="0" resource="0"
+                file="Source/Audio/PedalsAudio/DistortionAudioBase.h"/>
+          <FILE id="uOtVeu" name="FuzzAudio.cpp" compile="1" resource="0" file="Source/Audio/PedalsAudio/FuzzAudio.cpp"/>
+          <FILE id="dzpHYF" name="FuzzAudio.h" compile="0" resource="0" file="Source/Audio/PedalsAudio/FuzzAudio.h"/>
+          <FILE id="CkK4sM" name="NoiseGateAudio.cpp" compile="1" resource="0"
+                file="Source/Audio/PedalsAudio/NoiseGateAudio.cpp"/>
+          <FILE id="h9Nf1l" name="NoiseGateAudio.h" compile="0" resource="0"
+                file="Source/Audio/PedalsAudio/NoiseGateAudio.h"/>
+          <FILE id="vhyYHh" name="OverdriveAudio.cpp" compile="1" resource="0"
+                file="Source/Audio/PedalsAudio/OverdriveAudio.cpp"/>
+          <FILE id="YwlrXG" name="OverdriveAudio.h" compile="0" resource="0"
+                file="Source/Audio/PedalsAudio/OverdriveAudio.h"/>
+          <FILE id="kKCqBV" name="PhaserAudio.cpp" compile="1" resource="0" file="Source/Audio/PedalsAudio/PhaserAudio.cpp"/>
+          <FILE id="M19FbJ" name="PhaserAudio.h" compile="0" resource="0" file="Source/Audio/PedalsAudio/PhaserAudio.h"/>
+          <FILE id="iZOIfu" name="ReverbAudio.cpp" compile="1" resource="0" file="Source/Audio/PedalsAudio/ReverbAudio.cpp"/>
+          <FILE id="FSipe2" name="ReverbAudio.h" compile="0" resource="0" file="Source/Audio/PedalsAudio/ReverbAudio.h"/>
+        </GROUP>
+        <FILE id="bfdsFz" name="AmpAudio.cpp" compile="1" resource="0" file="Source/Audio/AmpAudio.cpp"/>
+        <FILE id="PDN2Ik" name="AmpAudio.h" compile="0" resource="0" file="Source/Audio/AmpAudio.h"/>
+        <FILE id="yv6fem" name="Audio.cpp" compile="1" resource="0" file="Source/Audio/Audio.cpp"/>
+        <FILE id="QmcmmZ" name="Audio.h" compile="0" resource="0" file="Source/Audio/Audio.h"/>
+        <FILE id="cW3Nsj" name="CabSimulatorAudio.cpp" compile="1" resource="0"
+              file="Source/Audio/CabSimulatorAudio.cpp"/>
+        <FILE id="QQqM9W" name="CabSimulatorAudio.h" compile="0" resource="0"
+              file="Source/Audio/CabSimulatorAudio.h"/>
+        <FILE id="jWziZO" name="OutputLimiter.cpp" compile="1" resource="0"
+              file="Source/Audio/OutputLimiter.cpp"/>
+      </GROUP>
+      <GROUP id="{6B389179-F5F1-6CD9-FFF5-AB08B3AEF1DC}" name="UI">
+        <GROUP id="{2BE44B2C-2F1A-8C39-8B3F-6A265655F8D4}" name="PedalsUI">
+          <FILE id="elZW0i" name="BlankPedalUI.cpp" compile="1" resource="0"
+                file="Source/UI/PedalsUI/BlankPedalUI.cpp"/>
+          <FILE id="ZnXTDL" name="ChorusUI.cpp" compile="1" resource="0" file="Source/UI/PedalsUI/ChorusUI.cpp"/>
+          <FILE id="OMPF5Z" name="ChorusUI.h" compile="0" resource="0" file="Source/UI/PedalsUI/ChorusUI.h"/>
+          <FILE id="KGGwhf" name="DelayUI.cpp" compile="1" resource="0" file="Source/UI/PedalsUI/DelayUI.cpp"/>
+          <FILE id="slXWF2" name="DelayUI.h" compile="0" resource="0" file="Source/UI/PedalsUI/DelayUI.h"/>
+          <FILE id="V9L9y5" name="DistortionUIbase.cpp" compile="1" resource="0"
+                file="Source/UI/PedalsUI/DistortionUIbase.cpp"/>
+          <FILE id="tkr4ya" name="DistortionUIbase.h" compile="0" resource="0"
+                file="Source/UI/PedalsUI/DistortionUIbase.h"/>
+          <FILE id="jjYHcq" name="FuzzUI.cpp" compile="1" resource="0" file="Source/UI/PedalsUI/FuzzUI.cpp"/>
+          <FILE id="Cbpfhz" name="FuzzUI.h" compile="0" resource="0" file="Source/UI/PedalsUI/FuzzUI.h"/>
+          <FILE id="Mie7XK" name="NoiseGateUI.cpp" compile="1" resource="0" file="Source/UI/PedalsUI/NoiseGateUI.cpp"/>
+          <FILE id="F2oRpR" name="NoiseGateUI.h" compile="0" resource="0" file="Source/UI/PedalsUI/NoiseGateUI.h"/>
+          <FILE id="Tnc8nk" name="OverdriveUI.cpp" compile="1" resource="0" file="Source/UI/PedalsUI/OverdriveUI.cpp"/>
+          <FILE id="YXN5OD" name="OverdriveUI.h" compile="0" resource="0" file="Source/UI/PedalsUI/OverdriveUI.h"/>
+          <FILE id="qChdSE" name="Pedal.cpp" compile="1" resource="0" file="Source/UI/PedalsUI/Pedal.cpp"/>
+          <FILE id="jFdHBX" name="Pedal.h" compile="0" resource="0" file="Source/UI/PedalsUI/Pedal.h"/>
+          <FILE id="VTeYSj" name="PhaserUI.cpp" compile="1" resource="0" file="Source/UI/PedalsUI/PhaserUI.cpp"/>
+          <FILE id="xZqhu8" name="PhaserUI.h" compile="0" resource="0" file="Source/UI/PedalsUI/PhaserUI.h"/>
+          <FILE id="C32bLi" name="ReverbUI.cpp" compile="1" resource="0" file="Source/UI/PedalsUI/ReverbUI.cpp"/>
+          <FILE id="twMg0D" name="ReverbUI.h" compile="0" resource="0" file="Source/UI/PedalsUI/ReverbUI.h"/>
+        </GROUP>
+        <FILE id="QUK2TZ" name="AmpUI.cpp" compile="1" resource="0" file="Source/UI/AmpUI.cpp"/>
+        <FILE id="VhuHmB" name="AmpUI.h" compile="0" resource="0" file="Source/UI/AmpUI.h"/>
+        <FILE id="Ww0gQw" name="AudioDeviceInfoDisplay.cpp" compile="1" resource="0"
+              file="Source/UI/AudioDeviceInfoDisplay.cpp"/>
+        <FILE id="LkTJnJ" name="AudioDeviceInfoDisplay.h" compile="0" resource="0"
+              file="Source/UI/AudioDeviceInfoDisplay.h"/>
+        <FILE id="MXs4e0" name="CabSimulatorUI.cpp" compile="1" resource="0"
+              file="Source/UI/CabSimulatorUI.cpp"/>
+        <FILE id="oLfU10" name="CabSimulatorUI.h" compile="0" resource="0"
+              file="Source/UI/CabSimulatorUI.h"/>
+        <FILE id="YB13ou" name="LevelMeterUI.cpp" compile="1" resource="0"
+              file="Source/UI/LevelMeterUI.cpp"/>
+        <FILE id="lS83oB" name="LevelMeterUI.h" compile="0" resource="0" file="Source/UI/LevelMeterUI.h"/>
+        <FILE id="JL6Tbo" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/UI/MainComponent.cpp"/>
+        <FILE id="jjigXg" name="MainComponent.h" compile="0" resource="0" file="Source/UI/MainComponent.h"/>
+      </GROUP>
+      <FILE id="kaoAm8" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+    <GROUP id="{13F0207D-ED9E-BABF-B004-1437712C16C7}" name="Resources">
+      <FILE id="I9Rv4h" name="Bogner.wav" compile="0" resource="1" file="Resources/Bogner.wav"/>
+      <FILE id="gcJf4k" name="cassette_recorder.wav" compile="0" resource="1"
+            file="Resources/cassette_recorder.wav"/>
+      <FILE id="BORZDY" name="guitar_amp.wav" compile="0" resource="1" file="Resources/guitar_amp.wav"/>
+      <FILE id="vgOg5O" name="Orange.wav" compile="0" resource="1" file="Resources/Orange.wav"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" microphonePermissionNeeded="1">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SDAassignment"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SDAassignment"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
