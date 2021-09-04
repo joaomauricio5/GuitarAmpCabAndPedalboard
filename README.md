@@ -1,5 +1,6 @@
 # GuitarAmpCabAndEffects
 Standalone MacOS application for guitar players, which includes a speaker cabinet simulator and multiple effects pedals.
+Brief report (including user manual) provided in the repository files.
 
 <p align="center">
 <img width="1612" alt="Screenshot 2021-09-04 at 17 54 51" src="https://user-images.githubusercontent.com/90060036/132102427-a6dc429c-247c-49f7-99af-a6dcacb7f6a6.png">
